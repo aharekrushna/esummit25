@@ -225,7 +225,7 @@ function Parallax() {
         </div>
       </section>
 
-      <section className={`${styles.plot} ${styles.group} relative`} style={{paddingBottom: '70vh', marginTop: 0, paddingTop: 0 }}>
+      <section className={`${styles.plot} ${styles.group} relative`} style={{paddingBottom: '80vh', marginTop: 0, paddingTop: 0 }}>
         <div className="absolute inset-0 bg-[url('/assets/stocks-bg.png')] opacity-20 mix-blend-overlay animate-scroll"></div>
         <div className={`${styles["plot--content"]} ${styles.layer} relative`} style={{ paddingBottom: '0', marginBottom: '0', paddingTop: '0', marginTop: 0 }}>
           <div className="relative flex flex-col items-center justify-center w-full my-16 -top-43 z-[10]">
@@ -241,7 +241,7 @@ function Parallax() {
         </div>
       </section>
 
-      <footer className="relative h-screen overflow-hidden bg-black">
+      <footer className="relative md:h-screen h-fit overflow-hidden bg-black">
         {/* Animated Golden Border */}
         <div className="absolute inset-0 z-30 pointer-events-none">
           <div className="absolute inset-0 border-[2px] border-yellow-500/80 animate-border-glow">
@@ -266,16 +266,6 @@ function Parallax() {
               height={140}
               className="opacity-90 hover:opacity-100 transition-opacity"
             />
-          </div>
-          <div className="absolute bottom-5 left-1/2 -translate-x-1/2 -translate-y-1/2 z-40">
-            <button
-              className="bg-yellow-500 text-black px-12 py-4 rounded-full font-bold text-2xl 
-                        transform transition-all duration-500 hover:scale-110 hover:shadow-gold-xl
-                        border-4 border-yellow-600 hover:border-yellow-400
-                        animate-heartbeat"
-            >
-              JOIN THE WOLF PACK
-            </button>
           </div>
         </div>
       </footer>

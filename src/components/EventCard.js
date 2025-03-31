@@ -14,8 +14,9 @@ export default function EventCard({ logo, title, desc, reg_url, details_url }) {
               src={logo} 
               alt="Event" 
               width={300} 
-              height={300} 
-              className="rounded-lg w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+              height={300}
+
+              className="rounded-lg w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" 
             />
           </div>
           <div className={`${styles["flip-card-back"]} rounded-lg backdrop-blur-md bg-gradient-to-br from-[#013C58]/90 to-[#00537A]/80 p-4 flex items-center justify-center text-center border border-[#A8E8F9]/30`}>
