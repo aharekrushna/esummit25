@@ -1,7 +1,7 @@
 
 export const events = [
   { 
-    logo: '/assets/events/hacknobuzz.webp', 
+    logo: '/assets/events/hacknobuzz.png', 
     title: 'Hacknobuzz', 
     desc: 'Hacknobuzz, a dynamic event where creativity, collaboration and innovation take center stage and budding innovators come together to brainstorm, create and motivate.', 
     longdesc: 'Welcome to Hacknobuzz, a dynamic event where creativity, collaboration and innovation take center stage and budding innovators come together to brainstorm, create and motivate. This engaging platform invites undergraduate and graduate students to bring their ideas to life, solve real-world challenges and turn visionary concepts into impactful solutions. Participants can  leverage their academic skills in a hands-on environment, gain valuable insights from industry professionals and collaborate with fellow students from varied disciplines.',
@@ -65,7 +65,7 @@ export const events = [
     ],
   },
   { 
-    logo: '/assets/events/creatorscorner.webp', 
+    logo: '/assets/events/creatorscorner.png', 
     title: 'Creators Corner', 
     desc: 'Looking to stand out in the digital space? Step into Creators Corner, where creativity meets opportunity! Join a thriving community of aspiring and established creators, connect with like-minded individuals and learn from industry leaders who have mastered the art of digital success.', 
     longdesc: 'Looking to stand out in the digital space? Step into Creators Corner, where creativity meets opportunity! Join a thriving community of aspiring and established creators, connect with like-minded individuals, and learn from industry leaders who have mastered the art of digital success. Whether you\'re passionate about storytelling, audience building, branding, or monetization, this is the perfect space to refine your content strategy.',
