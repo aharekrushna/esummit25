@@ -151,6 +151,58 @@ html.has-scroll-dragging {
   cursor: grab;
 }
 
+@keyframes border-glow {
+  0% { box-shadow: 0 0 30px rgba(255, 211, 91, 0.3); }
+  50% { box-shadow: 0 0 60px rgba(255, 211, 91, 0.6); }
+  100% { box-shadow: 0 0 30px rgba(255, 211, 91, 0.3); }
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes float-money {
+  0% { transform: translateY(100vh) rotate(0deg); }
+  100% { transform: translateY(-100vh) rotate(360deg); }
+}
+
+@keyframes film-grain {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+
+@keyframes heartbeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.05); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.03); }
+  100% { transform: scale(1); }
+}
+
+.animate-border-glow {
+  animation: border-glow 3s ease-in-out infinite;
+}
+
+.animate-ticker {
+  animation: ticker 40s linear infinite;
+}
+
+.animate-float-money {
+  animation: float-money 15s linear infinite;
+}
+
+.animate-film-grain {
+  animation: film-grain 20s linear infinite;
+}
+
+.animate-heartbeat {
+  animation: heartbeat 2s ease-in-out infinite;
+}
+
+.hover\:shadow-gold-xl:hover {
+  box-shadow: 0 0 50px 10px rgba(255, 211, 91, 0.4);
+}
 
 .has-scroll-dragging .c-scrollbar_thumb {
   cursor: -webkit-grabbing;
