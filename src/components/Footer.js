@@ -52,13 +52,13 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="w-full pt-8 pb-4 border-t border-white/20 relative overflow-hidden">
+    <footer className="w-full pt-8 pb-4 border-t border-yellow-300/40 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-black/40 via-black/30 to-black/20 backdrop-blur-xl z-0"></div>
-      <div className="absolute top-0 right-0 w-64 h-64 rounded-full bg-[#FFD35B]/40 blur-3xl -mr-20 -mt-20"></div>
-      <div className="absolute bottom-0 left-0 w-64 h-64 rounded-full bg-[#013c58]/40 blur-3xl -ml-10 -mb-10"></div>
+      <div className="absolute top-0 right-0 w-2/6 h-2/3 rounded-full bg-amber-500/30 blur-3xl -mr-20 -mt-20"></div>
+      <div className="absolute bottom-0 left-0 w-2/6 h-1/3 rounded-full bg-[#013c58]/60 blur-3xl -ml-10 -mb-10"></div>
       <div className="container mx-auto px-4 z-10 relative">
         <div className="flex flex-col md:flex-row justify-between items-center pb-8 border-b border-primary/30">
-          <p className="text-light/90 text-lg mb-4 md:mb-0 font-light">
+          <p className="text-light/90 text-amber-300 text-lg mb-4 md:mb-0 font-light">
             Connect with us on social media
           </p>
           <div className="flex space-x-4">
@@ -89,14 +89,14 @@ export default function Footer() {
               />
               <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/20 to-transparent pointer-events-none" />
             </div>
-            <p className="text-light/80 text-sm text-center md:text-left font-light">
+            <p className="text-light/80  text-sm text-center md:text-left font-light">
               Empowering innovation and entrepreneurship at VSSUT
             </p>
           </div>
 
           {/* Quick Links */}
           <div className="p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg">
-            <h3 className="text-primary font-semibold text-lg mb-4">
+            <h3 className="text-primary font-semibold text-lg mb-4 text-amber-300">
               Quick Links
             </h3>
             <ul className="space-y-2">
@@ -115,7 +115,7 @@ export default function Footer() {
           </div>
 
           <div className="p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg">
-            <h3 className="text-primary font-semibold text-lg mb-4">
+            <h3 className="text-primary font-semibold text-lg mb-4 text-amber-300">
               Useful Links
             </h3>
             <ul className="space-y-2">
@@ -134,7 +134,7 @@ export default function Footer() {
           </div>
 
           <div className="p-4 rounded-xl bg-white/5 backdrop-blur-sm border border-white/10 shadow-lg">
-            <h3 className="text-primary font-semibold text-lg mb-4">
+            <h3 className="text-primary font-semibold text-lg mb-4 text-amber-300">
               Contact Us
             </h3>
             <ul className="space-y-4">
