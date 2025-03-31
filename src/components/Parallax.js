@@ -116,7 +116,7 @@ function Parallax() {
         ></div>
       </header>
 
-      <section className={`${styles.preamble} border-b-3 border-amber-500`}>
+      <section id='preamble' className={`${styles.preamble} border-b-3 border-amber-500`}>
         <div className="flex flex-col items-center mb-20  ">
           <div className="absolute top-10 left-1/2 -translate-x-1/2 flex gap-4 w-full overflow-hidden">
             <div className="stock-ticker-animation w-full">

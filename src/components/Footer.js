@@ -45,8 +45,8 @@ export default function Footer() {
   ];
 
   const usefulLinks = [
-    { label: "About Us", href: "#" },
-    { label: "FAQs", href: "#" },
+    { label: "About", href: "#preamble" },
+    { label: "FAQs", href: "#faq" },
     { label: "Terms & Conditions", href: "#" },
     { label: "Privacy Policy", href: "#" },
   ];
@@ -79,15 +79,27 @@ export default function Footer() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 py-8">
           <div className="flex flex-col items-center md:items-start">
-            <div className="relative p-2 rounded-xl bg-white/5 backdrop-blur-lg shadow-xl mb-4">
-              <Image
-                src="/assets/logo.png"
-                alt="E-Summit Logo"
-                width={180}
-                height={55}
-                className="h-[55px] w-auto object-contain"
-              />
-              <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/20 to-transparent pointer-events-none" />
+            <div className="flex gap-4">
+              <div className="relative p-2 rounded-xl bg-white/5 backdrop-blur-lg shadow-xl mb-4">
+                <Image
+                  src="/assets/logo.png"
+                  alt="E-Cell Logo"
+                  width={180}
+                  height={55}
+                  className="h-[55px] w-auto object-contain"
+                />
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/20 to-transparent pointer-events-none" />
+              </div>
+              <div className="relative p-2 rounded-xl bg-white/5 backdrop-blur-lg shadow-xl mb-4">
+                <Image
+                  src="/assets/esummit.png"
+                  alt="E-Summit Logo"
+                  width={180}
+                  height={55}
+                  className="h-[55px] w-auto object-contain"
+                />
+                <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-primary/20 to-transparent pointer-events-none" />
+              </div>
             </div>
             <p className="text-light/80  text-sm text-center md:text-left font-light">
               Empowering innovation and entrepreneurship at VSSUT
@@ -161,7 +173,7 @@ export default function Footer() {
                 <div className="bg-primary/10 p-2 rounded-full group-hover:bg-primary/30 transition-all">
                   <Phone className="w-5 h-5 text-primary" />
                 </div>
-                <span className="text-light/90">+91 72055 49729</span>
+                <span className="text-light/90">+91 89846 80361</span>
               </li>
             </ul>
           </div>
@@ -173,7 +185,7 @@ export default function Footer() {
               © {new Date().getFullYear()} E-Cell VSSUT. All rights reserved.
             </p>
             <div className="text-light/50 text-xs">
-              Designed with <span className="text-red-500">♥</span> by E-Cell
+              Designed with <span className="text-red-500">♥</span> by E-Cell Tech
               VSSUT
             </div>
           </div>

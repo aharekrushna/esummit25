@@ -27,7 +27,7 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <nav className="flex items-center justify-between">
           {/* Animated Logo */}
-          <Link href="/" className="relative z-20 group">
+          <Link href="https://ecellvssut.in" target="blank" className="relative z-20 group">
             <Image
               src="/assets/logo.png"
               alt="E-Summit Logo"
