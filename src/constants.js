@@ -91,7 +91,7 @@ export const events = [
     ],
   },
   { 
-    logo: '/assets/events/startupshowcase.png', 
+    logo: '/assets/events/startupshowcase.webp', 
     title: 'Startup Showcase', 
     desc: 'Are you ready to take your startup aspirations to the next level? Startup Showcase, hosted by E-Cell VSSUT, Burla at E-Summit 2025, is your golden opportunity to bring your ideas to life and make a lasting impact in the entrepreneurial world.', 
     longdesc: 'Are you ready to take your startup aspirations to the next level? Startup Showcase, hosted by E-Cell VSSUT, Burla at E-Summit 2025, is your golden opportunity to bring your ideas to life and make a lasting impact in the entrepreneurial world. Whether you’re an aspiring entrepreneur with a groundbreaking idea or an early-stage startup looking for the right push, this event is designed to equip you with the tools, connections and mentorship needed to succeed.',
@@ -121,7 +121,7 @@ export const events = [
     ],
   },
   {
-    logo: '/assets/events/startupodyssey.webp',
+    logo: '/assets/events/startupodyssey.png',
     title: 'Startup Odyssey',
     desc: 'Fuel your startup journey at Startup Odyssey, part of E-Summit 2025. Engage in expert-led sessions, gain mentorship, network with the startup ecosystem, explore funding, and refine your business strategy. Ideal for budding and scaling entrepreneurs.',
     longdesc: 'Unlock the potential of your startup at Startup Odyssey: Where Vision Meets Execution, hosted by E-Cell VSSUT, Burla as a key part of E-Summit 2025. This dynamic two-day event is meticulously designed to empower both aspiring and established entrepreneurs to transform their innovative ideas into impactful realities.\nThis event is a must-attend for budding entrepreneurs who are just starting to shape their startup ideas, established startups seeking strategies for scaling and sustainable growth, and anyone eager to immerse themselves in the vibrant startup ecosystem through networking and mentorship opportunities. Join us at Startup Odyssey and take significant strides towards realizing your entrepreneurial vision.',

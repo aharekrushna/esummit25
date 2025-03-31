@@ -5,12 +5,6 @@ import { team } from "@/constants";
 
 const sections = [
   {
-    h: 'Organisers',
-    members: [
-      team.hitesh, team.adishree, team.sudipta,
-    ]
-  },
-  {
     h: 'For any Website and Technical Queries',
     members: [
       team.hkbhai, team.ys,
@@ -38,6 +32,12 @@ const sections = [
     h: 'For any Sponsorship related Queries',
     members: [
       team.sriniket, team.ppanda,
+    ]
+  },
+  {
+    h: 'Organisers',
+    members: [
+      team.hitesh, team.adishree, team.sudipta,
     ]
   },
 ]
