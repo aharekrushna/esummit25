@@ -2,7 +2,9 @@ import Image from "next/image"
 
 function SponsorCard({logo, name, what}) {
     return <div className="flex flex-col items-center gap-2">
-        <h1 className="text-2xl font-bold text-[#fbc503] text-center mb-8 mt-15">{what}</h1>
+        {what &&
+            <h1 className="text-2xl font-bold text-[#fbc503] text-center mb-8 mt-15">{what}</h1>
+        }
         <div className="w-[150px] h-[150px] rounded-full bg-white flex justify-center items-center">
             <Image src={logo} width={150} height={150} className="rounded-full" />
         </div>
@@ -64,10 +66,11 @@ export default function Sponsors() {
                     )
                 }
                 </div>
-                <div className="flex flex-col md:flex-row justify-center w-full gap-12">
+                <h1 className="text-2xl font-bold text-[#fbc503] text-center mt-15">Media Partner</h1>
+                <div className="flex flex-col md:flex-row justify-center w-full gap-22 md:gap-12">
                 {
                     sponsors_3.map(sp =>
-                        <SponsorCard logo={sp.logo} name={sp.name} what={sp.what} />
+                        <SponsorCard logo={sp.logo} name={sp.name} what={null} />
                     )
                 }
                 </div>
