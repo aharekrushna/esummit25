@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import styles from "./parallax.module.css";
 import Gallery from "./Gallery";
 import Image from "next/image";
+import Link from 'next/link';
 
 function Parallax() {
   useEffect(() => {
@@ -51,12 +52,13 @@ function Parallax() {
             <div className="absolute inset-0 bg-gradient-to-b from-yellow-600 to-transparent rounded-full blur-3xl" />
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 text-center p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full transform transition-all hover:scale-105 hover:shadow-glow hover:rotate-1 group relative overflow-hidden">
+        <div className="absolute bottom-0 left-0 right-0 text-center p-8 bg-gradient-to-t z-[100] from-black via-black/80 to-transparent">
+          <Link href="https://unstop.com/college-fests/e-summit-2025-veer-surendra-sai-university-of-technology-vssut-odisha-365189" target="blank"
+            className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full transform transition-all hover:scale-105 hover:shadow-glow hover:rotate-1 group relative overflow-hidden">
             <span className="relative z-10">Join the Wolf Pack</span>
             <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <div className="absolute -inset-2 rounded-full border-2 border-yellow-400 animate-ping-slow opacity-0 group-hover:opacity-50"></div>
-          </button>
+          </Link>
         </div>
 
         <div

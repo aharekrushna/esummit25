@@ -25,6 +25,11 @@ const speakers = [
         photo: '/assets/speakers/priyadarshi.jpeg',
         name: 'Priyadarshi Sadangi',
         desig: 'Startup Enthusiast and Investor and COO- EmTeK CoE, STPINEXT',
+    },
+    {
+        photo: '/assets/speakers/bibhu.jpeg',
+        name: 'Bibhu Bahalia',
+        desig: 'Co-Founder ASSAVA Coffee Roasters',
     }
 ]
 
