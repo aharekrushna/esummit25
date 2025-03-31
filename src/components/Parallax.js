@@ -186,9 +186,18 @@ function Parallax() {
         </div>
       </section>
 
-      <section className={`${styles.plot} ${styles.group} relative`}>
+      <section className={`${styles.plot} ${styles.group} relative`} style={{paddingBottom: '70vh', marginTop: 0, paddingTop: 0 }}>
         <div className="absolute inset-0 bg-[url('/assets/stocks-bg.png')] opacity-20 mix-blend-overlay animate-scroll"></div>
-        <div className={`${styles["plot--content"]} ${styles.layer}`}>
+        <div className={`${styles["plot--content"]} ${styles.layer} relative`} style={{ paddingBottom: '0', marginBottom: '0', paddingTop: '0', marginTop: 0 }}>
+          <div className="relative flex flex-col items-center justify-center w-full my-16 -top-43 z-[10]">
+            <span className="absolute text-3xl md:text-6xl font-extrabold text-yellow-700/50 blur-lg">
+              GALLERY
+            </span>
+            <h1 className="relative z-10 text-3xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#FFD35B] to-[#F5A201] tracking-tight">
+              GALLERY
+            </h1>
+            <div className="mt-4 w-24 md:w-1/4 h-1 bg-gradient-to-r from-[#FFD35B] to-[#F5A201] rounded-full"></div>
+          </div>
           <Gallery theme="wolf" />
         </div>
       </section>
