@@ -271,7 +271,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center py-16">
+      <div className="flex flex-col items-center pt-0 py-16">
         <div className="relative flex flex-col items-center justify-center w-full my-16">
           <span className="absolute text-4xl md:text-8xl font-extrabold text-yellow-700/50 blur-lg">
             PAST SPONSORS

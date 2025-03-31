@@ -43,8 +43,8 @@ const sponsors_3 = [
 
 export default function Sponsors() {
     return (<>
-        <div className="flex flex-col items-center">
-        <div className="relative flex flex-col items-center justify-center w-full my-16 mt-24">
+        <div className="flex flex-col items-center mb-12">
+        <div className="relative flex flex-col items-center justify-center w-full mb-8 mt-24">
             <span className="absolute text-4xl md:text-8xl font-extrabold text-yellow-700/50 blur-lg">
                 OUR SPONSORS
             </span>
@@ -54,28 +54,24 @@ export default function Sponsors() {
             <div className="mt-4 w-24 md:w-1/3 h-1 bg-gradient-to-r from-[#FFD35B] to-[#F5A201] rounded-full"></div>
             </div>
 
-            <div className="flex flex-col w-[65vw] justify-center gap-12 my-8 flex-wrap">
+            <div className="flex flex-col w-[65vw] justify-center gap-8 md:gap-12 my-8 flex-wrap">
                 {/* <SponsorCard name='Company X' what='Co-Powered By' /> */}
                 <SponsorCard logo='/assets/sponsors/mcl.jpg' name="MCL" what="Title Sponsor" />
-                <div className="flex justify-center w-full gap-12">
+                <div className="flex flex-col md:flex-row justify-center w-full gap-8 md:gap-12">
                 {
                     sponsors_2.map(sp =>
                         <SponsorCard logo={sp.logo} name={sp.name} what={sp.what} />
                     )
                 }
                 </div>
-                <div className="flex justify-center w-full gap-12">
+                <div className="flex flex-col md:flex-row justify-center w-full gap-12">
                 {
                     sponsors_3.map(sp =>
                         <SponsorCard logo={sp.logo} name={sp.name} what={sp.what} />
                     )
                 }
                 </div>
-                {/* <div className="flex flex-col md:flex-row justify-center gap-10">
-                    <SponsorCard name='Company X' what='Outing partner' />
-                    <SponsorCard name='Company X' what='Tech partner' />
-                    <SponsorCard name='Company X' what='Some partner' />
-                </div> */}
+                <SponsorCard logo='/assets/sponsors/kaveri.jpeg' name="Hotel Kaveri" what="Hospitality Partner" />
                 
             </div>
         </div>

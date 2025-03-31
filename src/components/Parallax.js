@@ -130,7 +130,7 @@ function Parallax() {
               </div>
             </div>
           </div>
-          <div className="relative gold-flare group flex flex-col items-center gap-0 -mt-20">
+          <div className="relative top-30 md:top-0 gold-flare group flex flex-col items-center gap-0 -mt-20">
             <Image
               src="/assets/images/leo.png"
               width={563}
@@ -142,7 +142,7 @@ function Parallax() {
             </h1>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-5 mb-10 w-full max-w-6xl relative group/stat">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-5 mb-10 w-full top-30 pb-25 md:pb-0 md:top-0 max-w-6xl relative group/stat">
             {[
               { number: "2000+", label: "Attendees" },
               { number: "30+", label: "Startups" },
