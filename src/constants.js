@@ -121,7 +121,7 @@ export const events = [
     ],
   },
   {
-    logo: '/assets/events/startupodyssey.png',
+    logo: '/assets/events/startupodyssey.jpeg',
     title: 'Startup Odyssey',
     desc: 'Fuel your startup journey at Startup Odyssey, part of E-Summit 2025. Engage in expert-led sessions, gain mentorship, network with the startup ecosystem, explore funding, and refine your business strategy. Ideal for budding and scaling entrepreneurs.',
     longdesc: 'Unlock the potential of your startup at Startup Odyssey: Where Vision Meets Execution, hosted by E-Cell VSSUT, Burla as a key part of E-Summit 2025. This dynamic two-day event is meticulously designed to empower both aspiring and established entrepreneurs to transform their innovative ideas into impactful realities.\nThis event is a must-attend for budding entrepreneurs who are just starting to shape their startup ideas, established startups seeking strategies for scaling and sustainable growth, and anyone eager to immerse themselves in the vibrant startup ecosystem through networking and mentorship opportunities. Join us at Startup Odyssey and take significant strides towards realizing your entrepreneurial vision.',
@@ -207,7 +207,7 @@ export const events = [
     title: 'Laughter Lounge', 
     desc: 'After a day of brainstorming, networking and diving deep into ideas, it’s time to switch gears and embrace the lighter side of life! Join us at the Laughter Lounge, hosted by E-Cell, VSSUT, where some of the finest comedians will take the stage to tickle your funny bone.', 
     longdesc: 'An Evening of Comedy & Camaraderie – Laughter Lounge Awaits!\nThey say laughter is the best therapy—so why not indulge in it? After a day of brainstorming, networking and diving deep into ideas, it’s time to switch gears and embrace the lighter side of life! Join us at the Laughter Lounge, hosted by E-Cell, VSSUT, where some of the finest comedians will take the stage to tickle your funny bone. Expect a night of unstoppable laughter, witty humor and feel-good vibes as you unwind with top-notch stand-up performances. Let go of stress, enjoy the moment and immerse yourself in an atmosphere filled with joy and camaraderie. Whether you\'re a comedy enthusiast or just looking for a fun escape, this evening promises to leave you in stitches. Get ready for an unforgettable experience—because at Laughter Lounge, the only rule is to have fun!',
-    reg_url: '', 
+    reg_url: 'https://docs.google.com/forms/d/e/1FAIpQLSf4bh86SVblQTb-9gJbhopm7DZm5Qf0XUWIc3vVgGsUhr750w/viewform?usp=header', 
     details_url: 'laughter',
     faq: [
       {

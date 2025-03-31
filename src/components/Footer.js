@@ -185,7 +185,7 @@ export default function Footer() {
               © {new Date().getFullYear()} E-Cell VSSUT. All rights reserved.
             </p>
             <div className="text-light/50 text-xs">
-              Designed with <span className="text-red-500">♥</span> by E-Cell Tech
+              Designed with <span className="text-red-500">♥</span> by Tech Team, E-Cell
               VSSUT
             </div>
           </div>
