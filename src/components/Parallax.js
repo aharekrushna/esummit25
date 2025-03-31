@@ -51,6 +51,13 @@ function Parallax() {
             <div className="absolute inset-0 bg-gradient-to-b from-yellow-600 to-transparent rounded-full blur-3xl" />
           </div>
         </div>
+        <div className="absolute bottom-0 left-0 right-0 text-center p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
+          <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full transform transition-all hover:scale-105 hover:shadow-glow hover:rotate-1 group relative overflow-hidden">
+            <span className="relative z-10">Join the Pack</span>
+            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div className="absolute -inset-2 rounded-full border-2 border-yellow-400 animate-ping-slow opacity-0 group-hover:opacity-50"></div>
+          </button>
+        </div>
 
         <div
           className={`${styles.layer} group hover:brightness-75 transition-all duration-500`}
@@ -184,6 +191,38 @@ function Parallax() {
             </span>
           </p>
         </div>
+        <div className="absolute inset-0 pointer-events-none z-20">
+            {[...Array(15)].map((_, i) => (
+              <div
+                key={i}
+                className="absolute text-yellow-400 opacity-40 animate-float-money"
+                style={{
+                  fontSize: `${Math.random() * 20 + 10}px`,
+                  left: `${Math.random() * 100}%`,
+                  animationDelay: `${Math.random() * 5}s`,
+                  filter: `blur(${Math.random() * 3}px)`,
+                }}
+              >
+                $
+              </div>
+            ))}
+          </div>
+        <div className="absolute bottom-0 left-0 right-0 h-16 bg-black/80 backdrop-blur-sm overflow-hidden z-40">
+            <div className="flex items-center h-full animate-ticker">
+              {Array(8)
+                .fill(
+                  "ESUMMIT2025 ▲ WOLF PACK ▼ $TOCKHOLM SYNDROME ▲ BULL MARKET ▼ 501(c)(3) ▲"
+                )
+                .map((text, i) => (
+                  <span
+                    key={i}
+                    className="text-yellow-400 font-mono text-lg tracking-wider whitespace-nowrap mx-8"
+                  >
+                    {text}
+                  </span>
+                ))}
+            </div>
+          </div>
       </section>
 
       <section className={`${styles.plot} ${styles.group} relative`} style={{paddingBottom: '70vh', marginTop: 0, paddingTop: 0 }}>
@@ -202,17 +241,32 @@ function Parallax() {
         </div>
       </section>
 
-      <footer className={styles.footer}>
-        <div className="absolute inset-0 bg-gradient-to-t from-yellow-400/10 to-transparent z-10"></div>
-        <video autoPlay muted loop className="w-full h-full object-cover z-10">
-          <source src="./assets/teaser.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute bottom-0 left-0 right-0 text-center p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
-          <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full transform transition-all hover:scale-105 hover:shadow-glow hover:rotate-1 group relative overflow-hidden">
-            <span className="relative z-10">Join the Pack</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <div className="absolute -inset-2 rounded-full border-2 border-yellow-400 animate-ping-slow opacity-0 group-hover:opacity-50"></div>
-          </button>
+      <footer className="relative h-screen overflow-hidden bg-black">
+        {/* Animated Golden Border */}
+        <div className="absolute inset-0 z-30 pointer-events-none">
+          <div className="absolute inset-0 border-[2px] border-yellow-500/80 animate-border-glow">
+            <div className="absolute inset-0 bg-[url('/assets/gold-texture.png')] mix-blend-overlay opacity-20" />
+          </div>
+        </div>
+
+        {/* Video Container with Distortion Effect */}
+        <div className="relative h-full w-full group">
+          <video
+            autoPlay
+            muted
+            loop
+            className="w-full h-full object-cover grayscale-[20%] contrast-125 transform group-hover:scale-105 transition-transform duration-1000"
+          >
+            <source src="./assets/teaser.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute top-8 right-8 z-10">
+            <Image
+              src="/assets/esummit.png"
+              width={140}
+              height={140}
+              className="opacity-90 hover:opacity-100 transition-opacity"
+            />
+          </div>
         </div>
       </footer>
     </div>
