@@ -37,7 +37,7 @@ export default function EventCard({ logo, title, desc, reg_url, details_url }) {
           Register
         </a>
         <Link 
-          href={details_url}
+          href={`/events/details/${details_url}`}
           className="w-full px-4 py-2 text-center rounded-lg bg-transparent border border-[#A8E8F9]/40 text-white hover:bg-white/10 hover:border-[#FFD35B]/40 hover:scale-105 transition-all duration-300"
         >
           Event Details
