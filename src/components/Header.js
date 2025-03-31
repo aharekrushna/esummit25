@@ -15,11 +15,11 @@ export default function Header() {
   }, []);
 
   const navLinks = [
-    { href: "/", label: "Home" },
-    { href: "/events", label: "Trading Floor" },
-    { href: "/sponsors", label: "Big Players" },
-    { href: "/speakers", label: "Wolf Pack" },
-    { href: "/contact", label: "IPO" },
+    { href: "/", label: "Trading Pit" },
+    { href: "/events", label: "Market Open" },
+    { href: "/sponsors", label: "Blue Chips" },
+    { href: "/speakers", label: "The Board" },
+    { href: "/contact", label: "Bullhorn" },
   ];
 
   return (
@@ -35,7 +35,6 @@ export default function Header() {
               height={50}
               className="h-[50px] w-auto object-contain transform transition-all duration-500 group-hover:rotate-[-3deg]"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"/>
           </Link>
 
           {/* Desktop Navigation */}
@@ -53,7 +52,6 @@ export default function Header() {
             ))}
           </ul>
 
-          {/* Stock Ticker Style Mobile Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden text-yellow-500 p-2 border-2 border-yellow-500/40 rounded-lg hover:bg-yellow-500/10 transition-all"

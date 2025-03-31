@@ -224,7 +224,7 @@ export default function Home() {
           <div className="mt-4 w-24 md:w-1/3 h-1 bg-gradient-to-r from-[#FFD35B] to-[#F5A201] rounded-full"></div>
         </div>
 
-        <div className="flex w-[65vw] justify-center gap-8 my-8 flex-wrap">
+        <div className="flex w-full  justify-center gap-8 my-8 px-10 flex-wrap">
           {events.map((it) => (
             <EventCard
               logo={it.logo}
