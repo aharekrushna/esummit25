@@ -44,7 +44,7 @@ const sections = [
 
 export default function ContactPage() {
   return (
-    <div className="">
+    <div className="mb-12">
       <div className="container mx-auto px-4">
         <div className="relative flex flex-col items-center justify-center w-full pt-24">
             <span className="absolute text-4xl md:text-8xl font-extrabold text-yellow-700/50 blur-lg">
@@ -59,7 +59,7 @@ export default function ContactPage() {
         {
           sections.map(section => <div>
             <h1 className="text-2xl font-bold text-[#fbc503] text-center mb-8 mt-15">{section.h}</h1>
-            <div className="gap-12 flex justify-center items-center w-full">
+            <div className="gap-12 flex flex-col md:flex-row justify-center items-center w-full">
               { section.members.map(member =>
                   <ContactCard
                     imageSrc={member.url}

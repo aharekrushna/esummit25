@@ -15,7 +15,7 @@ export default function Events() {
             <div className="mt-4 w-24 md:w-1/3 h-1 bg-gradient-to-r from-[#FFD35B] to-[#F5A201] rounded-full"></div>
             </div>
         
-            <div className="flex w-[65vw] justify-center gap-8 my-8 flex-wrap">
+            <div className="flex w-[85vw] md:w-[65vw] justify-center gap-8 my-8 flex-wrap">
                 {events.map((it) =>
                     <EventCard logo={it.logo} title={it.title} desc={it.desc} reg_url={it.reg_url} details_url={it.details_url} />
                 )}

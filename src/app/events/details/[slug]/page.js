@@ -25,7 +25,7 @@ export default async function EventDetails({ params }) {
             <div className="mt-4 w-24 md:w-1/3 h-1 bg-gradient-to-r from-[#FFD35B] to-[#F5A201] rounded-full"></div>
             </div>
 
-        <Image src={event.logo} width={1500} height={1500} className='w-1/3 h-auto object-contain rounded-lg' />
+        <Image src={event.logo} width={1500} height={1500} className='w-[80vw] md:w-1/3 h-auto object-contain rounded-lg' />
 
         <a 
           href={event.reg_url} 
@@ -36,15 +36,15 @@ export default async function EventDetails({ params }) {
           Register
         </a>
 
-        <h1 className="text-4xl mt-16 mb-8">ABOUT</h1>
-        <p className="w-[70vw] text-justify text-xl text-gray-300 hover:text-gray-400">{event.longdesc}</p>
+        <h1 className="text-3xl md:text-4xl mt-16 mb-8">ABOUT</h1>
+        <p className="w-[85vw] md:w-[70vw] text-justify text-xl text-gray-300 hover:text-gray-400">{event.longdesc}</p>
 
-        <div className="w-[80vw] md:w-[50vw] p-4 flex flex-col mb-10">
+        <div className="w-[80vw] md:w-[50vw] p-4 flex flex-col items-center mb-10">
         { 
              event.faq &&
              <>
-                 <h1 className="text-4xl mt-16 mb-8 text-center w-full">FAQs</h1>
-                 <div className="w-[80vw] md:w-[50vw] p-4 flex flex-col mb-10">
+                 <h1 className="text-3xl md:text-4xl mt-16 mb-8 text-center w-full">FAQs</h1>
+                 <div className="w-[85vw] md:w-[50vw] p-4 flex flex-col mb-10">
                      {event.faq.map(item =>
                          <Accordion 
                              title={item.title}
