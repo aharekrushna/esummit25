@@ -56,7 +56,6 @@ function Parallax() {
           <Link href="https://unstop.com/college-fests/e-summit-2025-veer-surendra-sai-university-of-technology-vssut-odisha-365189" target="blank"
             className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full transform transition-all hover:scale-105 hover:shadow-glow hover:rotate-1 group relative overflow-hidden">
             <span className="relative z-10">Join the Wolf Pack</span>
-            <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <div className="absolute -inset-2 rounded-full border-2 border-yellow-400 animate-ping-slow opacity-0 group-hover:opacity-50"></div>
           </Link>
         </div>
