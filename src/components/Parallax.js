@@ -39,7 +39,7 @@ function Parallax() {
       <header className={styles.group} data-parallax="group">
         <div className="absolute inset-0 flex items-end pb-50 justify-center z-10">
           <div className="relative w-full max-w-4xl">
-            <div className="relative z-20">
+            <div className="relative z-20 p-2 pb-30">
               <Image
                 src="/assets/esummit.png"
                 width={9795}
@@ -53,7 +53,7 @@ function Parallax() {
         </div>
         <div className="absolute bottom-0 left-0 right-0 text-center p-8 bg-gradient-to-t from-black via-black/80 to-transparent">
           <button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-full transform transition-all hover:scale-105 hover:shadow-glow hover:rotate-1 group relative overflow-hidden">
-            <span className="relative z-10">Join the Pack</span>
+            <span className="relative z-10">Join the Wolf Pack</span>
             <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
             <div className="absolute -inset-2 rounded-full border-2 border-yellow-400 animate-ping-slow opacity-0 group-hover:opacity-50"></div>
           </button>
@@ -192,37 +192,37 @@ function Parallax() {
           </p>
         </div>
         <div className="absolute inset-0 pointer-events-none z-20">
-            {[...Array(15)].map((_, i) => (
-              <div
-                key={i}
-                className="absolute text-yellow-400 opacity-40 animate-float-money"
-                style={{
-                  fontSize: `${Math.random() * 20 + 10}px`,
-                  left: `${Math.random() * 100}%`,
-                  animationDelay: `${Math.random() * 5}s`,
-                  filter: `blur(${Math.random() * 3}px)`,
-                }}
-              >
-                $
-              </div>
-            ))}
-          </div>
-        <div className="absolute bottom-0 left-0 right-0 h-16 bg-black/80 backdrop-blur-sm overflow-hidden z-40">
-            <div className="flex items-center h-full animate-ticker">
-              {Array(8)
-                .fill(
-                  "ESUMMIT2025 ▲ WOLF PACK ▼ $TOCKHOLM SYNDROME ▲ BULL MARKET ▼ 501(c)(3) ▲"
-                )
-                .map((text, i) => (
-                  <span
-                    key={i}
-                    className="text-yellow-400 font-mono text-lg tracking-wider whitespace-nowrap mx-8"
-                  >
-                    {text}
-                  </span>
-                ))}
+          {[...Array(15)].map((_, i) => (
+            <div
+              key={i}
+              className="absolute text-yellow-400 opacity-40 animate-float-money"
+              style={{
+                fontSize: `${Math.random() * 20 + 10}px`,
+                left: `${Math.random() * 100}%`,
+                animationDelay: `${Math.random() * 5}s`,
+                filter: `blur(${Math.random() * 3}px)`,
+              }}
+            >
+              $
             </div>
+          ))}
+        </div>
+        <div className="absolute bottom-0 left-0 right-0 h-16 bg-black/80 backdrop-blur-sm overflow-hidden z-40">
+          <div className="flex items-center h-full animate-ticker">
+            {Array(8)
+              .fill(
+                "ESUMMIT2025 ▲ WOLF PACK ▼ $TOCKHOLM SYNDROME ▲ BULL MARKET ▼ 501(c)(3) ▲"
+              )
+              .map((text, i) => (
+                <span
+                  key={i}
+                  className="text-yellow-400 font-mono text-lg tracking-wider whitespace-nowrap mx-8"
+                >
+                  {text}
+                </span>
+              ))}
           </div>
+        </div>
       </section>
 
       <section className={`${styles.plot} ${styles.group} relative`}>
@@ -241,7 +241,7 @@ function Parallax() {
         </div>
 
         {/* Video Container with Distortion Effect */}
-        <div className="relative h-full w-full group">
+        <div className="relative w-full h-full overflow-hidden">
           <video
             autoPlay
             muted
@@ -257,6 +257,16 @@ function Parallax() {
               height={140}
               className="opacity-90 hover:opacity-100 transition-opacity"
             />
+          </div>
+          <div className="absolute bottom-5 left-1/2 -translate-x-1/2 -translate-y-1/2 z-40">
+            <button
+              className="bg-yellow-500 text-black px-12 py-4 rounded-full font-bold text-2xl 
+                        transform transition-all duration-500 hover:scale-110 hover:shadow-gold-xl
+                        border-4 border-yellow-600 hover:border-yellow-400
+                        animate-heartbeat"
+            >
+              JOIN THE WOLF PACK
+            </button>
           </div>
         </div>
       </footer>
