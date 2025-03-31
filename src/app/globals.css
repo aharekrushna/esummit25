@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+:root {
+  --background: #010e1a;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.video-mask {
+  -webkit-mask-image: url(/assets/video-mask.svg);
+  -webkit-mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: cover;
+  
+  mask-image: url(/assets/video-mask.svg);
+  mask-position: center center;
+  mask-repeat: no-repeat;
+  mask-size: 30%;
+}
+
+.animate-marquee {
+  animation: marquee 20s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee2 {
+  animation: marquee2 15s linear infinite;
+  will-change: transform;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes marquee2 {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0%); }
+}
+
+@media (max-width: 768px) {
+  .animate-marquee {
+    animation-duration: 20s;
+  }
+  
+  .animate-marquee2 {
+    animation-duration: 15s;
+  }
+}
+
+.animate-zoom-in {
+  animation: zoom-in 5s ease-in forwards;
+}
+
+@keyframes zoom-in {
+  0% { mask-size: 30%; }
+  100% { mask-size: 1000% }
+}
+
+.animate-rise {
+  animation: rise 2s ease-in-out forwards;
+}
+
+@keyframes rise {
+  0% { width: 0%; opacity: 0; }
+  100% { width: 100%; opacity: 1; }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+[data-scroll-direction="horizontal"] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%;
+}
+
+
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+.c-scrollbar:hover {
+  transform: scaleX(1.45);
+}
+
+.c-scrollbar:hover,
+.has-scroll-scrolling .c-scrollbar,
+.has-scroll-dragging .c-scrollbar {
+  opacity: 1;
+}
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fbc503;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+
+.has-scroll-dragging .c-scrollbar_thumb {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+[data-scroll-section] {
+  perspective: 1000px;
+}
+
+.is-revealed {
+  transform: translateY(0) rotate(0) scale(1) !important;
+  opacity: 1 !important;
+}
+
+/* Add smooth reveal animation for elements with data-scroll attribute */
+[data-scroll] {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+[data-scroll="in"] {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Custom scroll animations */
+.fade-up {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.fade-up.is-revealed {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.fade-in.is-revealed {
+  opacity: 1;
+}
+
+.scale-in {
+  transform: scale(0.9);
+  opacity: 0;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.scale-in.is-revealed {
+  transform: scale(1);
+  opacity: 1;
+}
