@@ -19,8 +19,14 @@ export default function EventCard({ logo, title, desc, reg_url, details_url }) {
               className="rounded-lg w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" 
             />
           </div>
-          <div className={`${styles["flip-card-back"]} rounded-lg backdrop-blur-md bg-gradient-to-br from-[#013C58]/90 to-[#00537A]/80 p-4 flex items-center justify-center text-center border border-[#A8E8F9]/30`}>
-            <p className="text-white/90 font-light leading-relaxed">{desc}</p>
+          <div
+            className={`${styles["flip-card-back"]} rounded-lg backdrop-blur-lg 
+              bg-gradient-to-br from-[#011344b1] to-[#482e01c1]  shadow-gold-sm
+              relative overflow-hidden transition-all duration-300`}
+            >
+              <p className="text-white/90 relative z-10 font-medium leading-relaxed">
+                {desc}
+              </p>
           </div>
         </div>
       </div>

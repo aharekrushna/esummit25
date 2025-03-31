@@ -1,12 +1,12 @@
 import Image from "next/image"
 
 function SpeakerCard({photo, name, desig}) {
-    return <div className="flex flex-col items-center gap-2">
+    return <div className="flex flex-col items-center gap-2 w-[200px]">
         <div className="w-[150px] h-[150px] rounded-full bg-white flex justify-center items-center">
             <Image src={photo} width={150} height={150} className="rounded-full" />
         </div>
         <h1 className="text-xl">{name}</h1>
-        <p className="text-sm">{desig}</p>
+        <p className="text-sm text-center">{desig}</p>
     </div>
 }
 
@@ -20,6 +20,11 @@ const speakers = [
         photo: '/assets/speakers/subham acharya.jpeg',
         name: 'Subham Acharya',
         desig: 'Director FxUAV Technologies Pvt Ltd',
+    },
+    {
+        photo: '/assets/speakers/priyadarshi.jpeg',
+        name: 'Priyadarshi Sadangi',
+        desig: 'Startup Enthusiast and Investor and COO- EmTeK CoE, STPINEXT',
     }
 ]
 
