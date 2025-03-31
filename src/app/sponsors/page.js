@@ -19,14 +19,14 @@ const sponsors_2 = [
         what: 'Technology Partner'
     },
     {
-        logo: '/assets/sponsors/imperial.png',
-        name: 'Imperial Lights',
-        what: 'Lighting Partner',
-    },
-    {
         logo: '/assets/sponsors/unacademy.avif',
         name: 'Unacademy',
         what: 'Education Partner',
+    },
+    {
+        logo: '/assets/sponsors/imperial.png',
+        name: 'Imperial Lights',
+        what: 'Lighting Partner',
     },
 ]
 
