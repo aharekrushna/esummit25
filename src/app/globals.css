@@ -261,3 +261,51 @@ html.has-scroll-dragging {
   transform: scale(1);
   opacity: 1;
 }
+
+@keyframes float {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100vw); /* Float across the screen */
+  }
+}
+
+@keyframes growBar {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes stockBar {
+  0% {
+    left: 0%;
+  }
+  25% {
+    left: 50%;
+    bottom: 50%;
+  }
+  50% {
+    bottom: 20%;
+  }
+  100% {
+    left: 100%;
+    bottom: 100%;
+  }
+}
+
+/* Apply the animations to specific elements */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-grow-bar {
+  animation: growBar 5s ease-in-out forwards;
+}
+
+.animate-stock-bar {
+  animation: stockBar 3s ease-in-out infinite;
+}

@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import EventCard from "@/components/EventCard";
@@ -7,6 +7,7 @@ import { events } from "@/constants";
 import Parallax from "@/components/Parallax";
 import EventCarousel from "@/components/EventCarousal";
 import Accordion from "@/components/Accordion";
+import Loading from "@/components/Loading";
 
 function SpeakerCard({ photo, name, desig }) {
   return (
@@ -151,8 +152,19 @@ export default function Home() {
     }
   }, []);
 
+  const [loading, setLoading] = useState(true);
+
+  // Stop loading animation after 5 seconds for demo
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+      window.scrollTo(0, 0);
+    }, 2000); // 5 seconds for demo
+  }, []);
+
   return (
     <>
+      <Loading visible={loading} />
       <div>
         <Parallax />
       </div>
