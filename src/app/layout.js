@@ -8,6 +8,9 @@ export const metadata = {
   title: "E-Summit 2025 | VSSUT",
   description:
     "E-Summit 2025 - The Annual Entrepreneurship Summit of VSSUT, Burla",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -226,7 +226,7 @@ function Parallax() {
         </div>
       </section>
 
-      <section className={`${styles.plot} ${styles.group} relative hidden md:block`} style={{paddingBottom: '80vh', marginTop: 0, paddingTop: 0 }}>
+      <section className={`${styles.plot} ${styles.group} relative hidden md:block`} style={{paddingBottom: '90vh', marginTop: 0, paddingTop: 0 }}>
         <div className="absolute inset-0 bg-[url('/assets/stocks-bg.png')] opacity-20 mix-blend-overlay animate-scroll"></div>
         <div className={`${styles["plot--content"]} ${styles.layer} relative`} style={{ paddingBottom: '0', marginBottom: '0', paddingTop: '0', marginTop: 0 }}>
           <div className="relative flex flex-col items-center justify-center w-full my-16 -top-43 z-[10]">
