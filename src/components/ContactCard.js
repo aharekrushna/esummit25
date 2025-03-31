@@ -6,6 +6,7 @@ import { Linkedin, Instagram, Facebook, Twitter } from "lucide-react";
 
 export default function ContactCard({
   imageSrc,
+  name,
   designation,
   socialLinks = {
     linkedin: "#",
@@ -36,9 +37,8 @@ export default function ContactCard({
         />
       </motion.div>
 
-      {/* Designation */}
       <div className="absolute bottom-0 left-0 right-0 bg-[#151515] p-2 text-center">
-        <p className="text-[#fbfcd4] font-medium">{designation}</p>
+        <p className="text-[#fbfcd4] font-medium">{name}</p>
       </div>
 
       {/* Social Media Links */}

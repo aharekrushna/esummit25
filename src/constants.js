@@ -229,3 +229,214 @@ export const events = [
     ],
   },
 ]
+
+
+const Harekrushna = '/assets/team/Harekrushna.jpg';
+const arindam = '/assets/team/arindam.jpg';
+const pratyush = '/assets/team/Pratyush Panda.JPG';
+const sudipta = '/assets/team/Sudipta Padhi.jpg';
+const snehanjali = '/assets/team/SNEHANJALI GAGARIA.jpg';
+const astha = '/assets/team/Astha Prava Sahu.jpg';
+const dinesh = '/assets/team/Dinesh Pinninti.jpg';
+const swapnita = '/assets/team/Swapnita Singh.jpg';
+const pratyasha = '/assets/team/Pratyasha Panda.jpg';
+const ashish = '/assets/team/Ashish Pradhan.jpg';
+const ume = '/assets/team/Ume Habibba.jpg';
+const swapna = '/assets/team/Swapna Sarthak MOHAPATRA.jpg';
+const anannya = '/assets/team/Anannya Ipsita.jpg';
+const abhinab = '/assets/team/Abhinab banka.jpg';
+const shahzada = '/assets/team/Shahzada musharraf.jpg';
+const devraj = '/assets/team/Debraj Beura.jpg';
+const pragya = '/assets/team/Pragya Pattnayak.png';
+const shwetanjali = '/assets/team/SHWETANJALI GAGARIA.jpg';
+const rakesh = '/assets/team/Rakesh Barick.jpg';
+const om = '/assets/team/Om Shree Pradhan.jpg';
+const satyashree = '/assets/team/satyashree dash.jpg';
+const yashika = '/assets/team/Yashika Sharma.jpg';
+const hitesh = '/assets/team/Hitesh Kumar Palo.jpg';
+const shanti = '/assets/team/Shanti sworup Biswal.jpg';
+const simon = '/assets/team/Simon KP.png';
+const ashirbad = '/assets/team/ASHIRBAD TRIPATHY.jpg';
+const sai = '/assets/team/Sai sidharth Dash.webp';
+const nishant = '/assets/team/Nishant Kumar Singh.jpg';
+const debraj = '/assets/team/Debraj Beura.jpg';
+const adishree = '/assets/team/Adi Shree.jpg';
+const satyam = '/assets/team/Satyam Nayak.jpg';
+const sriniket = '/assets/team/Sriniket Sahoo.png';
+
+export const team = {
+  rakesh: {
+    name: "Rakesh Kumar Barick ",
+    designation: "Event Management Lead",
+    url: rakesh,
+    ilink: "https://www.instagram.com/_rakesh.barick_/?hl=en",
+    flink: "https://www.facebook.com/profile.php?id=100084448857855",
+    llink: "https://www.linkedin.com/in/rakeshbarick/",
+    tlink: "#",
+  },
+  nishant: {
+    name: "Nishant Kumar Singh",
+    designation: "Event Management Lead",
+    url: nishant,
+    ilink: "https://www.instagram.com/nis_hant.___/profilecard/?igsh=MXRvYnlub3BsZmw2cw==",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/nishant-kumar-singh-a5514024b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    tlink: "#",
+  },
+  omshree: {
+    name: "Om Shree Pradhan ",
+    designation: "Event Management Lead",
+    url: om,
+    ilink: "https://www.instagram.com/0m.the.grea",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/om-shree-pradhan-5993a726a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    tlink: "#",
+  },
+
+  // Tech
+  hkbhai: {
+    name: "A Harekrushna Nayak",
+    designation: "Tech Lead",
+    url: Harekrushna,
+    ilink: "#",
+    flink: "#",
+    llink: "#",
+    tlink: "#",
+  },
+  ys: {
+    name: "Yashika Sharma ",
+    designation: "Tech Lead",
+    url: yashika,
+    ilink: "#",
+    flink: "#",
+    llink: "#",
+    tlink: "#",
+  },
+
+  // SM
+  pratyush: {
+    name: "Pratyush Panda",
+    designation: "Social Media Lead",
+    url: pratyush,
+    ilink: "https://www.instagram.com/pratyushpanda._/",
+    flink: "https://www.facebook.com/pratyush.panda.1848/",
+    llink: "https://www.linkedin.com/in/pratyushpanda91/",
+    tlink: "https://x.com/pandapratyush91",
+  },
+  swapna: {
+    name: "Swapna Sarthak Mohapatra",
+    designation: "Social Media Lead",
+    url: swapna,
+    ilink: "#",
+    flink: "#",
+    llink: "#",
+    tlink: "#",
+  },
+
+  // MNS
+  saisid: { 
+    name: "Sai Sidharth Dash",
+    designation: "Marketing and Sponsorship Lead",
+    url: sai,
+    ilink: "https://www.instagram.com/saisidharth2003/?hl=en",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/sai-sidharth-dash-77971726a/",
+    tlink: "#",
+  },
+  sriniket: {
+    name: 'Sriniket Sahoo',
+    designation: "Marketing and Sponsorship Lead",
+    url: sriniket,
+    ilink: "#",
+    flink: "#",
+    llink: "#",
+    tlink: "#",
+  },
+  ppanda: {
+    name: "Pratyasha Panda",
+    designation: "Marketing and Sponsorship Lead",
+    url: pratyasha,
+    ilink: "https://www.instagram.com/_pratyasha_001/profilecard/?igsh=Nmdzd2x1MnFod2I2",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/pratyasha-panda04",
+    tlink: "#",
+  },
+
+  // PR
+  pdinesh: {
+    name: "P. Dinesh",
+    designation: "Public Relations Lead",
+    url: dinesh,
+    ilink: "https://www.instagram.com/dineshh.here?igsh=MXUwZXR5eHJjaGlmcA==",
+    flink: "https://www.facebook.com/profile.php?id=100034423131762&mibextid=ZbWKwL",
+    llink: "https://in.linkedin.com/in/dinesh-dinu-b68911230",
+    tlink: "#",
+  },
+  astha: {
+    name: 'Astha Prava Sahu',
+    url: astha,
+    ilink: '#',
+    flink: '#',
+    llink: '#',
+    tlink: '#',
+  },
+
+  // GD
+  pragya: {
+    name: "Pragya Paramita Pattnayak",
+    designation: "Graphic Designing Lead",
+    url: pragya,
+    ilink: "https://www.instagram.com/pragyaaaaa.jpeg/",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/pragya-pattnayak-70a459259/",
+    tlink: "https://x.com/PragyaDesigns",
+  },
+  alexa: {
+    name: "Satyashree Dash",
+    designation: "Graphic Designing",
+    url: satyashree,
+    ilink: "https://www.instagram.com/_.aka._alexa/profilecard/?igsh=b2E1Y2lrM3lpd29i/",
+    flink: "#",
+    llink: "http://www.linkedin.com/in/satya71",
+    tlink: "#",
+  },
+
+  // Video
+  banka: {
+    name: "Abhinab Banka",
+    designation: "Video Editing ",
+    url: abhinab,
+    ilink: "https://www.instagram.com/abhinab_banka_20/profilecard/?igsh=MWVzcHBoOGwwcmEweA==",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/%0Aabhinab-banka/",
+    tlink: "#",
+  },
+
+  hitesh: {
+    name: "Hitesh Kumar Palo ",
+    designation: "Co-ordinator",
+    url: hitesh,
+    ilink: "https://www.instagram.com/hitesh_palo/",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/hitesh-kumar-palo",
+    tlink: "https://x.com/HiteshPalo26?t=jPzMfCQN3_BTDWPGMiBaZQ&s=09",
+  },
+  adishree: {
+    name: "Adishree Srikumar",
+    designation: "Co-ordinator",
+    url: adishree,
+    ilink: "https://www.instagram.com/aadishreee._/",
+    flink: "#",
+    llink: "https://www.linkedin.com/in/adishree-s-151085268/",
+    tlink: "#",
+  },
+  sudipta: {
+    name: "Sudipta Padhi",
+    designation: "Public Relation ",
+    url: sudipta,
+    ilink: "#",
+    flink: "#",
+    llink: "#",
+    tlink: "#",
+  },
+}
