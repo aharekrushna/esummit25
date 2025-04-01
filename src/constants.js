@@ -177,7 +177,7 @@ export const events = [
     ],
   },
   { 
-    logo: '/assets/events/esportsarena.webp', 
+    logo: '/assets/events/esportsarena.jpg', 
     title: 'Esports Arena', 
     desc: 'They say competition fuels greatness—so why not put your skills to the test? It’s time to switch gears and embrace the thrill of virtual battles! Join us at the Esports Arena, hosted by E-Cell VSSUT, Burla at E-Summit 2025 where top gamers will go head-to-head in an electrifying showdown.', 
     longdesc: 'A Platform of Gaming & Glory – The Esports Arena Awaits!\nThey say competition fuels greatness—so why not put your skills to the test? It’s time to switch gears and embrace the thrill of virtual battles! Join us at the Esports Arena, hosted by E-Cell VSSUT, Burla at E-Summit 2025 where top gamers will go head-to-head in an electrifying showdown. Expect an adrenaline-pumping night filled with intense matches, strategic plays and a gaming atmosphere like no other. Whether you\'re a player or a spectator, get ready to witness epic victories, nail-biting moments and the unbreakable spirit of esports!\nLet the game begin!',
