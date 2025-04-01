@@ -35,7 +35,7 @@ export const events = [
     ]
   },
   { 
-    logo: '/assets/events/leadershipsummit.webp', 
+    logo: '/assets/events/leadershipsummit.jpeg', 
     title: 'Leadership Summit', 
     desc: 'The Leadership Summit fosters insightful discussions led by distinguished leaders across industries, where experts engage in thought-provoking conversations, sharing diverse perspectives on industry trends, business challenges and emerging technologies.', 
     longdesc: 'The Leadership Summit is a premier event featuring insightful discussions led by distinguished industry leaders. Experts engage in thought-provoking conversations, sharing diverse perspectives on industry trends, business challenges, and emerging technologies.',
