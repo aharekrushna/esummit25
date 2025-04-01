@@ -57,7 +57,7 @@ export default function Sponsors() {
             </div>
 
             <div className="flex flex-col w-[65vw] justify-center gap-8 md:gap-12 my-8 flex-wrap">
-                {/* <SponsorCard name='Company X' what='Co-Powered By' /> */}
+                <SponsorCard logo='/assets/sponsors/unstop.png' name="Unstop" what="Powered By" />
                 <SponsorCard logo='/assets/sponsors/mcl.jpg' name="MCL" what="Title Sponsor" />
                 <div className="flex flex-col md:flex-row justify-center w-full gap-8 md:gap-12">
                 {
