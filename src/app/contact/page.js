@@ -37,7 +37,7 @@ const sections = [
   {
     h: 'For any Sponsorship related Queries',
     members: [
-      team.sriniket, team.ppanda,
+      team.sriniket, team.ppanda, team.saisid,
     ]
   },
   {
