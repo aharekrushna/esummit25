@@ -91,7 +91,7 @@ export const events = [
     ],
   },
   { 
-    logo: '/assets/events/startupshowcase.webp', 
+    logo: '/assets/events/startupshowcase.png', 
     title: 'Startup Showcase', 
     desc: 'Are you ready to take your startup aspirations to the next level? Startup Showcase, hosted by E-Cell VSSUT, Burla at E-Summit 2025, is your golden opportunity to bring your ideas to life and make a lasting impact in the entrepreneurial world.', 
     longdesc: 'Are you ready to take your startup aspirations to the next level? Startup Showcase, hosted by E-Cell VSSUT, Burla at E-Summit 2025, is your golden opportunity to bring your ideas to life and make a lasting impact in the entrepreneurial world. Whether you’re an aspiring entrepreneur with a groundbreaking idea or an early-stage startup looking for the right push, this event is designed to equip you with the tools, connections and mentorship needed to succeed.',
@@ -263,6 +263,8 @@ const debraj = '/assets/team/Debraj Beura.jpg';
 const adishree = '/assets/team/Adi Shree.jpg';
 const satyam = '/assets/team/Satyam Nayak.jpg';
 const sriniket = '/assets/team/Sriniket Sahoo.png';
+const soham = '/assets/team/soham.jpeg';
+const sibasis = '/assets/team/sibasis.jpeg';
 
 export const team = {
   rakesh: {
@@ -399,6 +401,24 @@ export const team = {
     flink: "#",
     llink: "http://www.linkedin.com/in/satya71",
     tlink: "#",
+  },
+  soham: {
+    name: 'Soham Dhal',
+    designation: '',
+    url: soham,
+    ilink: '#',
+    flink: '#',
+    llink: '#',
+    tlink: '#',
+  },
+  sibasis: {
+    name: 'Sibasish Mohanty',
+    designation: '',
+    url: sibasis,
+    ilink: '#',
+    flink: '#',
+    llink: '#',
+    tlink: '#',
   },
 
   // Video

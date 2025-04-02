@@ -29,6 +29,12 @@ const sections = [
     ]
   },
   {
+    h: 'For any Design and Branding related Queries',
+    members: [
+      team.soham, team.sibasis,
+    ]
+  },
+  {
     h: 'For any Sponsorship related Queries',
     members: [
       team.sriniket, team.ppanda,
